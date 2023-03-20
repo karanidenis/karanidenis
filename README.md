@@ -1,5 +1,5 @@
 <h1 align='center'> Hi There :wave:</h1>
-![](https://komarev.com/ghpvc/?username=karanidenis&color=green&style=plastic&label=Views)
+![](https://komarev.com/ghpvc/?username=karanidenis&color=green)
 
 <p align="center"> <img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=karanidenis&show_icons=true&locale=en&layout=compact&theme=radical" alt="Karanidenis" width=360 height=180/>
 <img align="center" src="https://github-readme-stats.vercel.app/api?username=karanidenis&show_icons=true&theme=radical" alt="karanidenis" width=420 height=180/>
