@@ -9,6 +9,8 @@
             document.getElementById('flip-box').style.display = "block";
             document.getElementById('flip-boxe').style.display = "block";
             document.getElementById('flip-boxc').style.display = "block";
+            document.getElementById('reach').style.display = "none";
+            document.getElementById('emailtext').style.display = "none";
         }
         function hideAbout() {
             document.getElementById('hobby').style.display = "none";
