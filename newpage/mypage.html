@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../newpage/mypage.css">
+    <script src="https://kit.fontawesome.com/868e72f2ea.js" crossorigin="anonymous"></script>
+    <script src="../newpage/mypage.js"></script>
+    <title>My page</title>
+</head>
+<body>
+    <header>
+        <div id="head">
+            <div id="abouts" onclick="showAbout()" ondblclick="hideAbout()">
+                About
+            </div>
+            <div id="edu" onclick="showEdu()" ondblclick="hideEdu()">
+                Education
+            </div>
+            <div id="docs" onclick="showDocs()" ondblclick="hideDocs()">
+                documents
+            </div>
+            <div id="conts" onclick="showConts()" ondblclick="hideConts()">
+                contacts
+            </div>
+            <!-- below should be the button to change light modes -->
+            <!-- <button id="lights" onclick="lightMode()" ondblclick="darkMode()">
+                mode
+            </button> -->
+            <div>
+            <i onclick="lightMode()" ondblclick="darkMode()" class="fa-duotone fa-light-switch fa-beat fa-2xs"
+                style="--fa-primary-color: #1d201d; --fa-secondary-color: #22511f; --fa-secondary-opacity: 0.3;"></i>
+                </div>
+        </div>
+    </header>
+
+
+    <section id="section">
+        <div id="flip-boxa">
+            <div class="flip-box-innera">
+                <div class="flip-box-fronta">
+                    <img src="../other_images/me.png" alt="About">
+                </div>
+                <div class="flip-box-backa">
+                    <p>
+                        Hey there, thank you for visiting. <span onclick="showAbout()" ondblclick="hideAbout()">Click to see more</p></span> 
+                </div>
+            </div>
+        </div>
+
+
+
+<!-- education section -->
+        <div id="flip-boxe">
+            <div class="flip-box-innere">
+                <div class="flip-box-fronte">
+                    <img src="../other_images/education.jpeg" alt="education">
+                </div>
+                <div class="flip-box-backe">
+                    <p>
+                        Hey, Now we get serious.
+                        I am a student. 
+                       <span onclick="showEdu()" ondblclick="hideEdu()">Click to see my progress.</span>  
+                    </p>
+                </div>
+            </div>
+            </div>
+
+
+<!-- documents section -->
+        <div id="flip-box">
+            <div class="flip-box-inner">
+                <div class="flip-box-front">
+                    <img src="../other_images/docs.jpeg" alt="Docs">
+                </div>
+                <div class="flip-box-back">
+                    <p>
+                        Hey, I have a few documents you would like to go through and maybe leave a comment or download.
+                        <span onclick="showDocs()" ondblclick="hideDocs()">Click to see them.</span>
+                    </p>
+                </div>
+            </div>
+            </div>
+
+
+<!-- contacts section -->
+        <div id="flip-boxc">
+            <div class="flip-box-innerc">
+                <div class="flip-box-frontc">
+                    <img src="../other_images/contacts.jpeg" alt="Contacts">
+                </div>
+                <div class="flip-box-backc">
+                    <p>
+                        Hey, in case you want to reach out use the following details...
+                        <span onclick="showConts()" ondblclick="hideConts()">Click to see them.</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Docs -->
+    <div id="files">
+        <div id="Resume">
+            <a href="https://docs.google.com/document/d/1_KcY1JAtC2yUVsY3CX2fAkS64yRKlZbTTUKWzfdTgYo/edit" target="_blank"
+                class="my-button">Resume</a>
+    
+            <style>
+                .my-button {
+                    display: inline-block;
+                    padding: 10px 20px;
+                    font-size: 16px;
+                    font-weight: bold;
+                    color: #fff;
+                    text-decoration: none;
+                    background-color: #4CAF50;
+                    border-radius: 5px;
+                    transition: background-color 0.3s;
+                }
+    
+                .my-button:hover {
+                    background-color: #3e8e41;
+                }
+            </style>
+        </div>
+    
+        <div id="file2">
+            <embed src="../other_images/Denis Karani_CMYK.pdf" type="application/pdf" />
+        </div>
+    
+        <div id="file3">
+            <embed src="../other_images/Denis Karani_elab.pdf" type="application/pdf" />
+        </div>
+    </div>
+
+
+    <!-- Contacts -->
+    <!-- whatsapp, Instagram, github, telegram -->
+<section id="reach">
+    <div id="container">
+        <div id="whatsapp">
+        <a href="https://wa.me/254716272778" target="_blank">
+            <i class="fa-brands fa-whatsapp fa-2xl" style="color: #157a53;"></i>
+        </a>
+        </div>
+        <div id="insta">
+            <a href="https://instagram.com/_karanii_?igshid=ZDdkNTZiNTM=" target="_blank">
+                <i class="fa-brands fa-instagram fa-2xl" style="color: #e95950;"></i>
+            </a>
+        </div>
+        <div id="git">
+            <a href="https://github.com/karanidenis" target="_blank">
+                <i class="fa-brands fa-github fa-2xl" style="color: #333;"></i>
+            </a>
+        </div>
+        <div id="telegram">
+            <a href="https://web.telegram.org/k/" target="_blank">
+                <i class="fa-brands fa-telegram fa-2xl" style="color: #0088cc;"></i>
+            </a>
+        </div>
+        <div id="email" onclick="showEmail()"  ondblclick="hideEmail()">
+                <i class="fa-solid fa-envelope fa-2xl" style="color: blue;"></i>
+        </div>
+    </div>
+    <div id="emailtext">
+        <p>For inquiries email me at:</p>
+        <p>karanidenisw@gmail.com</p>
+</section>
+
+    <!-- about -->
+    <!-- skills, hobbies, school,  -->
+    <section id="hobby">
+        <!-- adventure, riding bikes, video games, coding -->
+        <div id="adventure">
+            <h1>Adventure</h1>
+            <p>I discovered I am a sucker for adventure when I went to the beach for the first time.
+                I have a passion for exploring new places and trying new things.</p>
+            <img src="../beach.jpg" alt="Safari walk">
+            <img src="../beach2.jpg" alt="">
+        </div>
+        <div id="bikes">
+            <h1>Sports</h1>
+            <p>I love riding bikes. I have been riding bikes since I was 5 years old.
+                I have a passion for riding bikes and I love to ride bikes with my friends.</p>
+            <img src="../bike.jpg" alt="bike">
+            <h2>Football</h2>
+            <p>I love playing football. I have been playing football since I was 10 years old.
+                I have a passion for playing football and I love to play competitive football.</p>
+            <img src="../football.jpg" alt="football">
+        </div>
+        <div id="games">
+            <h1>Video Games</h1>
+            <p>I love playing video games. I have been playing video games since I was 10 years old.
+                I have a passion for playing video games and I love to play video games with my friends.</p>
+        </div>
+        <div id="coding">
+            <h1>Coding</h1>
+            <p>I love coding. I have been coding since I was 19 years old.
+                I have a passion for coding and I love learning new technologies.</p>
+        </div>
+    </section>
+
+<!-- education -->
+<!-- my schools, current program, skills, -->
+    <section id="educate">
+            <!-- school, program, skills, -->
+            <div id="school">
+                <h1>Secondary school</h1>
+                <p>I attended High school at the Moi High School in Kenya. I graduated in 2015.</p>
+                <h1>University</h1>
+                <p>I am currently attending the University of African leadership University at Kigali. I am majoring in Software
+                    Engineering and I am expected to graduate in 2024.</p>
+            </div>
+            <div id="program">
+                <h1>My Courses</h1>
+                <p>I am currently attending the University of African leadership University at Kigali. I am majoring in Software
+                    Engineering and I am expected to graduate in 2024.</p>
+                <p>I have a passion for learning new technologies. I have learned many technologies in my time at the University
+                    and
+                    also by myself.</p>
+                <h1>languages</h1>
+                <ul>
+                    <li>python</li>
+                    <li>javaScript</li>
+                    <li>Html</li>
+                    <li>CSS</li>
+                    <li>Flask framework</li>
+                    <li>currently learning React framework</li>
+                </ul>
+            </div>
+            <div id="skills">
+                <h2>Co curriculars</h2>
+                <p>I have been involved in many co curricular activities in my time at the University.</p>
+                <aside>
+                    <p>Yoga</p>
+                    <p>This was as a result of attending a mental hhealth session which was one of the best sessions I have ever
+                        attended. I
+                        have done a few more yoga sessions since then.</p>
+                </aside>
+                <div id="image">
+                    <img src="../other_images/yoga.jpg" alt="yoga">
+                </div>
+        
+                <div id="asideb">
+                    <p>scooter riding</p>
+                    <p>This was as a result of attending an industry visit to Little cab Kenya.</p>
+
+                </div>
+                <div id="image">
+                    <img src="../other_images/scooter.jpg" alt="scooter">
+                </div>
+            </div>
+        </section>
+</body>
+
+</html>

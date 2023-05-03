@@ -1,0 +1,456 @@
+header{
+    /* background-color: black; */
+    margin-top: 0;
+    height: 15%;
+    margin-left: 20%;
+}
+
+header div{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    font-size: larger;
+}
+
+#abouts:hover,
+#edu:hover,
+#docs:hover,
+#conts:hover{
+    color: aquamarine;
+    cursor: pointer;
+    transform: scale(1.3);
+}
+#head{
+    color: white;
+    font-size: 10px;
+    display: flex;
+}
+#head div{
+    margin-left: 30px;
+}
+
+#section{
+    display: flex;
+    margin-top: 20%;
+}
+
+/* style about me */
+#flip-boxa {
+    background-color: transparent;
+    width: 25%;
+    height: 200px;
+    perspective: 1000px;
+    /* Remove this if you don't want the 3D effect */
+}
+#flip-boxa:hover,
+#flip-boxa:active,
+#flip-box:hover,
+#flip-box:active,
+#flip-boxe:hover,
+#flip-boxe:active,
+#flip-boxc:hover,
+#flip-boxc:active{
+    transform: scale(1.1);
+    transition: 0.5s;
+    border:1px solid aquamarine;
+}
+/* This container is needed to position the front and back side */
+.flip-box-innera {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+/* Do an horizontal flip when you move the mouse over the flip box container */
+#flip-boxa:hover .flip-box-innera {
+    transform: rotateY(180deg);
+}
+/* Position the front and back side */
+.flip-box-fronta,
+.flip-box-backa {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    /* Safari */
+    backface-visibility: hidden;
+}
+/* Style the front side (fallback if image is missing) */
+
+/* Style the back side */
+.flip-box-backa {
+    background-color: rgb(17 24 39);
+    /* background-color: black; */
+    color: white;
+    transform: rotateY(180deg);
+}
+
+
+/* style education */
+#flip-boxe {
+    background-color: transparent;
+    width: 25%;
+    height: 200px;
+    perspective: 1000px;
+    /* Remove this if you don't want the 3D effect */
+}
+/* This container is needed to position the front and back side */
+.flip-box-innere {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+/* Do an horizontal flip when you move the mouse over the flip box container */
+#flip-boxe:hover .flip-box-innere {
+    transform: rotateY(180deg);
+    /* increase in size as well */
+}
+/* Position the front and back side */
+.flip-box-fronte,
+.flip-box-backe {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    /* Safari */
+    backface-visibility: hidden;
+}
+/* Style the front side (fallback if image is missing) */
+.flip-box-fronte {
+    /* background-color: #bbb; */
+    color: black;
+}
+/* Style the back side */
+.flip-box-backe {
+    background-color: rgb(17 24 39);
+    color: white;
+    transform: rotateY(180deg);
+}
+
+
+/* style documents */
+#flip-box {
+    background-color: transparent;
+    width: 25%;
+    height: 200px;
+    perspective: 1000px;
+    /* Remove this if you don't want the 3D effect */
+}
+/* This container is needed to position the front and back side */
+.flip-box-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+/* Do an horizontal flip when you move the mouse over the flip box container */
+#flip-box:hover .flip-box-inner {
+    transform: rotateY(180deg);
+}
+/* Position the front and back side */
+.flip-box-front,
+.flip-box-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    /* Safari */
+    backface-visibility: hidden;
+}
+/* Style the front side (fallback if image is missing) */
+.flip-box-front {
+    /* background-color: #bbb; */
+    color: black;
+}
+/* Style the back side */
+.flip-box-back {
+    font-style: italic;
+    background-color: rgb(17 24 39);
+    color: white;
+    transform: rotateY(180deg);
+}
+
+
+/* style contacts */
+#flip-boxc {
+    background-color: transparent;
+    width: 25%;
+    height: 200px;
+    perspective: 1000px;
+    /* Remove this if you don't want the 3D effect */
+}
+/* This container is needed to position the front and back side */
+.flip-box-innerc {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+/* Do an horizontal flip when you move the mouse over the flip box container */
+#flip-boxc:hover .flip-box-innerc {
+    transform: rotateY(180deg);
+}
+/* Position the front and back side */
+.flip-box-frontc,
+.flip-box-backc {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    /* Safari */
+    backface-visibility: hidden;
+}
+/* Style the front side (fallback if image is missing) */
+.flip-box-frontc {
+    /* background-color: #bbb; */
+    color: black;
+}
+/* Style the back side */
+.flip-box-backc {
+    background-color: rgb(17 24 39);
+    /* background-color: black; */
+    color: white;
+    transform: rotateY(180deg);
+}
+
+ #container {
+     /* make it responsive */
+    @media screen and (max-width: 768px) {
+        max-width: 40%;
+        /* margin-left: 30%; */
+        margin: 0 auto;
+        max-height: 20%;
+    }
+        max-width: 40%;
+     margin-top: 15%;
+     display: grid;
+     grid-template-columns: auto auto auto auto auto;
+     border: 2px solid #e95950;
+     align-items: center;
+     border-radius: 2em;
+
+     /* center horizontal */
+     justify-content: center;
+ }
+
+ @keyframes whatsapp {
+     0% {
+         transform: rotate(0deg);
+     }
+
+     25% {
+         transform: rotate(10deg);
+     }
+
+     50% {
+         transform: rotate(0deg);
+     }
+
+     75% {
+         transform: rotate(-10deg);
+     }
+
+     100% {
+         transform: rotate(0deg);
+     }
+ }
+
+ @keyframes insta {
+     0% {
+         transform: rotate(0deg);
+     }
+
+     25% {
+         transform: rotate(10deg);
+     }
+
+     50% {
+         transform: rotate(0deg);
+     }
+
+     75% {
+         transform: rotate(-10deg);
+     }
+
+     100% {
+         transform: rotate(0deg);
+     }
+ }
+
+ @keyframes git {
+     0% {
+         transform: rotate(0deg);
+     }
+
+     25% {
+         transform: rotate(10deg);
+     }
+
+     50% {
+         transform: rotate(0deg);
+     }
+
+     75% {
+         transform: rotate(-10deg);
+     }
+
+     100% {
+         transform: rotate(0deg);
+     }
+ }
+
+ @keyframes telegram {
+     0% {
+         transform: rotate(0deg);
+     }
+
+     25% {
+         transform: rotate(10deg);
+     }
+
+     50% {
+         transform: rotate(0deg);
+     }
+
+     75% {
+         transform: rotate(-10deg);
+     }
+
+     100% {
+         transform: rotate(0deg);
+     }
+ }
+@keyframes email{
+    0%{
+        transform: rotate(0deg);
+    }
+    25%{
+        transform: rotate(10deg);
+    }
+    50%{
+        transform: rotate(0deg);
+    }
+    75%{
+        transform: rotate(-10deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
+
+ #whatsapp,
+ #insta,
+ #git,
+ #telegram,
+ #email{
+     width: 60px;
+     height: 50px;
+     border-radius: 50%;
+     text-align: center;
+     line-height: 40px;
+     cursor: pointer;
+     transition: 0.5s;
+ }
+
+ /* #whatsapp i{
+            bottom: 10px;
+            right: 10px;
+            width: 50px;
+        } */
+ #whatsapp {
+     bottom: 10px;
+     right: 10px;
+     animation: whatsapp 1s infinite;
+ }
+
+ #whatsapp:hover {
+     animation: whatsapp 1s infinite;
+ }
+
+ #insta:hover {
+     animation: insta 1s infinite;
+ }
+
+ #git:hover {
+     animation: git 1s infinite;
+ }
+
+ #telegram:hover {
+     animation: telegram 1s infinite;
+ }
+
+ #educate {
+     background-color: rgb(17 24 39);
+     height: 100%;
+     color: white;
+ }
+
+ #school {
+     margin-left: 5%;
+     margin-top: 5%;
+     /* background-image: url("../other_images/aluimage.jpeg"); */
+     background-color: rgb(17 24 39);
+ }
+
+ #program {
+     margin-left: 5%;
+     margin-top: 5%;
+     margin-bottom: 5%;
+     padding: 2%;
+     border-radius: 5px;
+ }
+
+ #skills {
+     margin-left: 5%;
+     margin-right: 5%;
+ }
+
+aside{
+    float: right;
+}
+#files{
+    display: none;
+}
+
+#reach{
+    display: none;
+}
+
+#hobby{
+    display: none;
+}
+
+#educate{
+    display: none;
+}
+
+#more{
+    height: 50%;
+    display: grid;
+    justify-content: center;
+;   align-items: center;
+}
+
+body{
+    background-color: rgb(17 24 39);
+}
+
+#hobby{
+    color: white;
+}
+
+#emailtext{
+    display: none;
+    color: aqua;
+}

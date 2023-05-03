@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://kit.fontawesome.com/868e72f2ea.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+    <style>
+        #container{
+            position: fixed;
+            width: 50%;
+            height: 70px;
+            /* z-index: 100; */
+            margin-top: 35%;
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+            border: 2px solid #e95950;
+            align-items: center;
+            border-radius: 2em;
+
+            /* center horizontal */
+            justify-content: center;
+        }
+        @keyframes whatsapp{
+            0%{
+                transform: rotate(0deg);
+            }
+            25%{
+                transform: rotate(10deg);
+            }
+            50%{
+                transform: rotate(0deg);
+            }
+            75%{
+                transform: rotate(-10deg);
+            }
+            100%{
+                transform: rotate(0deg);
+            }
+        }
+        @keyframes insta{
+            0%{
+                transform: rotate(0deg);
+            }
+            25%{
+                transform: rotate(10deg);
+            }
+            50%{
+                transform: rotate(0deg);
+            }
+            75%{
+                transform: rotate(-10deg);
+            }
+            100%{
+                transform: rotate(0deg);
+            }
+        }
+        @keyframes git{
+            0%{
+                transform: rotate(0deg);
+            }
+            25%{
+                transform: rotate(10deg);
+            }
+            50%{
+                transform: rotate(0deg);
+            }
+            75%{
+                transform: rotate(-10deg);
+            }
+            100%{
+                transform: rotate(0deg);
+            }
+        }
+        @keyframes telegram{
+            0%{
+                transform: rotate(0deg);
+            }
+            25%{
+                transform: rotate(10deg);
+            }
+            50%{
+                transform: rotate(0deg);
+            }
+            75%{
+                transform: rotate(-10deg);
+            }
+            100%{
+                transform: rotate(0deg);
+            }
+        }
+        #whatsapp, #insta, #git, #telegram{
+            
+            width: 60px;
+            height: 50px;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 40px;
+            cursor: pointer;
+            transition: 0.5s;
+        }
+        /* #whatsapp i{
+            bottom: 10px;
+            right: 10px;
+            width: 50px;
+        } */
+        #whatsapp{
+            bottom: 10px;
+            right: 10px;
+            animation: whatsapp 1s infinite;
+        }
+        #whatsapp:hover{
+            animation: whatsapp 1s infinite;
+        } 
+        #insta:hover{
+            animation: insta 1s infinite;
+        }
+        #git:hover{
+            animation: git 1s infinite;
+        }
+        #telegram:hover{
+            animation: telegram 1s infinite;
+        }
+    </style>
+</head>
+<body>
+    <!-- whatsapp, Instagram, github, telegram -->
+    <div id="container">
+    <div id="whatsapp">
+        <i class="fa-brands fa-whatsapp fa-2xl" style="color: #157a53;"></i>
+    </div>
+    <div id="insta">
+        <i class="fa-brands fa-instagram fa-2xl" style="color: #e95950;"></i>
+    </div>
+    <div id="git">
+        <i class="fa-brands fa-github fa-2xl" style="color: #333;"></i>
+    </div>
+    <div id="telegram">
+        <i class="fa-brands fa-telegram fa-2xl" style="color: #0088cc;"></i>
+    </div>
+    </div>
+</body>
+</html>
