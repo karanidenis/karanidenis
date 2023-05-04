@@ -101,11 +101,22 @@
 
     <!-- Docs -->
     <div id="files">
+        <div id="file2">
+            <embed src="../other_images/Denis Karani_CMYK.pdf" type="application/pdf" />
+        </div>
+
         <div id="Resume">
             <a href="https://docs.google.com/document/d/1_KcY1JAtC2yUVsY3CX2fAkS64yRKlZbTTUKWzfdTgYo/edit" target="_blank"
                 class="my-button">Resume</a>
     
             <style>
+                #Resume{
+                    /* text-align: center; */
+                    display: grid;
+                    /* justify-content: center; */
+                    align-items: center;
+                    margin-inline: 10%;
+                }
                 .my-button {
                     display: inline-block;
                     padding: 10px 20px;
@@ -117,17 +128,12 @@
                     border-radius: 5px;
                     transition: background-color 0.3s;
                 }
-    
+
                 .my-button:hover {
                     background-color: #3e8e41;
                 }
             </style>
         </div>
-    
-        <div id="file2">
-            <embed src="../other_images/Denis Karani_CMYK.pdf" type="application/pdf" />
-        </div>
-    
         <div id="file3">
             <embed src="../other_images/Denis Karani_elab.pdf" type="application/pdf" />
         </div>
@@ -137,6 +143,10 @@
     <!-- Contacts -->
     <!-- whatsapp, Instagram, github, telegram -->
 <section id="reach">
+    <div id="emailtext">
+        <p>For inquiries email me at:</p>
+        <p>karanidenisw@gmail.com</p>
+    </div>
     <div id="container">
         <div id="whatsapp">
         <a href="https://wa.me/254716272778" target="_blank">
@@ -158,44 +168,24 @@
                 <i class="fa-brands fa-telegram fa-2xl" style="color: #0088cc;"></i>
             </a>
         </div>
-        <div id="email" onclick="showEmail()"  ondblclick="hideEmail()">
-                <i class="fa-solid fa-envelope fa-2xl" style="color: blue;"></i>
-        </div>
     </div>
-    <div id="emailtext">
-        <p>For inquiries email me at:</p>
-        <p>karanidenisw@gmail.com</p>
 </section>
 
     <!-- about -->
     <!-- skills, hobbies, school,  -->
     <section id="hobby">
         <!-- adventure, riding bikes, video games, coding -->
-        <div id="adventure">
-            <h1>Adventure</h1>
-            <p>I discovered I am a sucker for adventure when I went to the beach for the first time.
-                I have a passion for exploring new places and trying new things.</p>
-            <img id="adv" src="../other_images/adventure.jpg" alt="Safari walk">
-        </div>
-        <div id="bikes">
-            <h1>Sports</h1>
-            <p>I love riding bikes. I have been riding bikes since I was 5 years old.
-                I have a passion for riding bikes and I love to ride bikes with my friends.</p>
-            <img id="bikey" src="../other_images/bike.jpg" alt="bike">
-            <h2>Football</h2>
-            <p>I love playing football. I have been playing football since I was 10 years old.
-                I have a passion for playing football and I love to play competitive football.</p>
-            <img src="../football.jpg" alt="football">
-        </div>
-        <div id="games">
-            <h1>Video Games</h1>
-            <p>I love playing video games. I have been playing video games since I was 10 years old.
-                I have a passion for playing video games and I love to play video games with my friends.</p>
-        </div>
-        <div id="coding">
-            <h1>Coding</h1>
-            <p>I love coding. I have been coding since I was 19 years old.
-                I have a passion for coding and I love learning new technologies.</p>
+        <div id="me">
+            <div id="imgkarani">
+                <img src="../other_images/karani.png" alt="Karani">
+            </div>
+            <div id="karani">
+            <p>
+                Denis is a Software Engineering student who is passionate about learning new technologies and solving problems.
+                He is a team player and a leader who is always ready to learn and share his knowledge with others.
+                He is also a gamer and a biker. He loves adventure and is always ready to try new things. He is also a good cook.
+            </p>
+            </div>
         </div>
     </section>
 
@@ -204,8 +194,6 @@
     <section id="educate">
             <!-- school, program, skills, -->
             <div id="school">
-                <h1>Secondary school</h1>
-                <p>I attended High school at the Moi High School in Kenya. I graduated in 2015.</p>
                 <h1>University</h1>
                 <p>I am currently attending the University of African leadership University at Kigali. I am majoring in Software
                     Engineering and I am expected to graduate in 2024.</p>
@@ -215,7 +203,6 @@
                 <p>I am currently attending the University of African leadership University at Kigali. I am majoring in Software
                     Engineering and I am expected to graduate in 2024.</p>
                 <p>I have a passion for learning new technologies. I have learned many technologies in my time at the University
-                    and
                     also by myself.</p>
                 <h1>languages</h1>
                 <ul>
@@ -227,27 +214,32 @@
                     <li>currently learning React framework</li>
                 </ul>
             </div>
-            <div id="skills">
-                <h2>Co curriculars</h2>
-                <p>I have been involved in many co curricular activities in my time at the University.</p>
-                <aside>
-                    <p>Yoga</p>
-                    <p>This was as a result of attending a mental hhealth session which was one of the best sessions I have ever
-                        attended. I
-                        have done a few more yoga sessions since then.</p>
-                </aside>
-                <div id="image">
-                    <img src="../other_images/yoga.jpg" alt="yoga">
+            <div id="projects">
+            <div id="bxa">
+                <div id="airbnb">
+                    <h2>Airbnb</h2>
+                    <p>This is a clone of the Airbnb website. It is a project I did with my team at the University. It is a
+                        full-stack project. We used the Flask framework for the backend and HTML, CSS, and JavaScript for the
+                        frontend.</p>
+                        <a href="https://github.com/karanidenis/alu-AirBnB_clone_v4" target="_blank">
+                            <i class="fa-brands fa-github fa-2xl" style="color: aquamarine;"></i>
+                        </a>
                 </div>
-        
-                <div id="asideb">
-                    <p>scooter riding</p>
-                    <p>This was as a result of attending an industry visit to Little cab Kenya.</p>
-
                 </div>
-                <div id="image">
-                    <img src="../other_images/scooter.jpg" alt="scooter">
+                <div id="bx">
+                <div id="delights">
+                    <h3>Africandelights</h3>
+                    <p>This is a website designed to produce great recipes for users. I built it with my team at the University. It is a
+                        full-stack project. We used the Flask framework for the backend and HTML, CSS, and JavaScript for the
+                        frontend.</p>
+                        <a href="https://github.com/karanidenis/African_delights" target="_blank">
+                            <i class="fa-brands fa-github fa-2xl" style="color: aquamarine;"></i>
+                        </a>
                 </div>
+                </div>
+            </div>
+                <h1>Secondary school</h1>
+                <p>I attended High school at the Moi High School in Kenya. I graduated in 2019.</p>
             </div>
         </section>
 </body>

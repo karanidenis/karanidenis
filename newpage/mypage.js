@@ -1,7 +1,7 @@
 // Purpose: To create a new page for my website
         // about section
         function showAbout() {
-            document.getElementById('hobby').style.display = "block";
+            document.getElementById('hobby').style.display = "grid";
             document.getElementById('flip-boxa').style.display = "none";
             document.getElementById('educate').style.display = "none";
             document.getElementById('files').style.display = "none";
@@ -35,7 +35,8 @@
 
         // documents section
         function showDocs() {
-            document.getElementById('files').style.display = "block";
+            files = document.getElementById('files');
+            files.style.display = "flex";
             document.getElementById('reach').style.display = "none";
             document.getElementById('educate').style.display = "none";
             document.getElementById('hobby').style.display = "none";
