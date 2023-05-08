@@ -1,40 +1,42 @@
 header{
-    /* background-color: black; */
-    margin-top: 0;
+    margin-top: 5%;
     height: 15%;
     margin-left: 20%;
-}
-
-header div{
     display: flex;
-    justify-content: space-between;
-    margin-top: 2%;
-    margin-left: 2%;
+    justify-content: end;
     margin-right: 2%;
-    font-size: larger;
+    /* background-color: rgb(17 24 39); */
 }
 
-#abouts:hover,
-#edu:hover,
-#docs:hover,
-#conts:hover{
-    color: aquamarine;
-    cursor: pointer;
-    transform: scale(1.3);
+.custom-bg {
+    background-color: rgb(17 24 39);
 }
-#head{
+
+.buttons {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 10%;
+}
+
+.btn {
+    margin-right: 10%;
+}
+
+.buttons .btn-primary {
     color: white;
-    font-size: 10px;
-    display: flex;
-}
-#head div{
-    margin-left: 30px;
+    background-color: transparent;
 }
 
-#section{
-    display: flex;
-    margin-top: 20%;
+.btn:focus {
+    box-shadow: 0px 0px 6px white;
 }
+
+.row{
+    margin-top: 10%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
 
 /* style about me */
 #flip-boxa {
@@ -42,7 +44,6 @@ header div{
     width: 25%;
     height: 200px;
     perspective: 1000px;
-    /* Remove this if you don't want the 3D effect */
 }
 #flip-boxa:hover,
 #flip-boxa:active,
@@ -152,6 +153,7 @@ header div{
     transition: transform 0.8s;
     transform-style: preserve-3d;
 }
+
 /* Do an horizontal flip when you move the mouse over the flip box container */
 #flip-box:hover .flip-box-inner {
     transform: rotateY(180deg);
@@ -224,12 +226,6 @@ header div{
     transform: rotateY(180deg);
 }
 
- #container {
-    max-width: 50%;
-    margin-top: 5%;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
- }
 
  @keyframes whatsapp {
      0% {
@@ -341,8 +337,6 @@ header div{
  #git,
  #telegram,
  #whatsapp {
-     bottom: 10px;
-     right: 10px;
      animation: whatsapp 1s infinite;
  }
 
@@ -362,30 +356,7 @@ header div{
      animation: telegram 1s infinite;
  }
 
- #educate {
-     background-color: rgb(17 24 39);
-     height: 100%;
-     color: white;
- }
-
- #school {
-     margin-left: 5%;
-     margin-top: 5%;
-     /* background-image: url("../other_images/aluimage.jpeg"); */
-     background-color: rgb(17 24 39);
- }
-
- #program {
-     margin-left: 5%;
-     margin-top: 5%;
-     margin-bottom: 5%;
-     padding: 2%;
-     border-radius: 5px;
- }
-
 #files{
-    display: none;
-    /* align-items: center; */
     justify-content: center;
 }
 
@@ -397,19 +368,11 @@ header div{
     display: none;
 }
 
-#educate{
-    display: none;
-}
-
 #more{
     height: 50%;
     display: grid;
     justify-content: center;
 ;   align-items: center;
-}
-
-body{
-    background-color: rgb(17 24 39);
 }
 
 #hobby{
@@ -419,11 +382,7 @@ body{
 #me{
     align-items: center;
     height: 30%;
-    margin-left: 30%;
-}
-#emailtext{
-    /* display: none; */
-    color: aqua;
+    margin-left: 10%;
 }
 
 #karani{
@@ -436,21 +395,78 @@ body{
     width: 50%;
     height: auto;
 }
-
-#projects{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 10px;
+#myproj{
+    display: none;
 }
 
-#bxa,
-#bx{
-    border: 4px solid darkslategrey;
-    box-shadow: 5px 5px 5px 2px rgba(236, 231, 231, 0.2);
+.card {
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px white;
+    transition: transform 0.3s ease-in-out;
 }
-#bxa:hover,
-#bx:hover{
-    transform: scale(1.01);
-    transition: 0.5s;
-    border: 4px solid aquamarine;
+
+.card:hover {
+    transform: translateY(-5%);
+}
+
+.card-body {
+    padding: 20px;
+    background-color: rgb(17 24 39);
+    border-radius: 0 0 10px 10px;
+    color: white;
+}
+
+/* .row {
+    margin-top: 5%;
+    margin-bottom: 5%;
+} */
+
+.row-text{
+    margin-left: 5%;
+    color: white;
+    font-size: 1.2em;
+    margin-bottom: 5%;
+}
+h5.card-title {
+    font-size: 1.2em;
+    color: tomato;
+}
+
+.card-text {
+    font-size: 0.9em;
+    color: white;
+}
+
+.float-right i {
+    margin-right: 10px;
+}
+
+.card-text{
+    color: white;
+    margin-top: 10%;
+}
+
+.text-float{
+    color: white;
+}
+
+.button-link {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: transparent;
+    color: white;
+    border: 2px solid blue;
+    text-decoration: none;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    border-radius: 2em;
+}
+
+.button-link:hover {
+    background-color: blue;
+    color: black;
+    box-shadow: 0px 0px 5px white;
 }

@@ -3,38 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="../newpage/mypage.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/868e72f2ea.js" crossorigin="anonymous"></script>
     <script src="../newpage/mypage.js"></script>
-    <title>My page</title>
+    <title>@KARANI</title>
 </head>
-<body>
+<body class="custom-bg">
     <header>
-        <div id="head">
-            <div id="abouts" onclick="showAbout()" ondblclick="hideAbout()">
-                About
-            </div>
-            <div id="edu" onclick="showEdu()" ondblclick="hideEdu()">
-                Education
-            </div>
-            <div id="docs" onclick="showDocs()" ondblclick="hideDocs()">
-                documents
-            </div>
-            <div id="conts" onclick="showConts()" ondblclick="hideConts()">
-                contacts
-            </div>
-            <!-- below should be the button to change light modes -->
-            <!-- <button id="lights" onclick="lightMode()" ondblclick="darkMode()">
-                mode
-            </button> -->
-            <div>
-            <i onclick="lightMode()" ondblclick="darkMode()" class="fa-duotone fa-light-switch fa-beat fa-2xs"
-                style="--fa-primary-color: #1d201d; --fa-secondary-color: #22511f; --fa-secondary-opacity: 0.3;"></i>
-                </div>
+        <div class="buttons">
+            <button class="btn btn-primary" type="button" onclick="showCard()">Home</button>
+            <button class="btn btn-primary" type="button" onclick="showAbout()" ondblclick="hideAbout()">About</button>
+            <button class="btn btn-primary" type="button" onclick="showProj()" ondblclick="hideProj()">Projects</button>
+            <button class="btn btn-primary" type="button" onclick="showLangs()" ondblclick="hideLangs()">Skills</button>
         </div>
     </header>
 
-
-    <section id="section">
+    <div class="row justify-content-center">
         <div id="flip-boxa">
             <div class="flip-box-innera">
                 <div class="flip-box-fronta">
@@ -42,14 +27,12 @@
                 </div>
                 <div class="flip-box-backa">
                     <p>
-                        Hey there, thank you for visiting. <span onclick="showAbout()" ondblclick="hideAbout()">Click to see more</p></span> 
+                        Hey there, thank you for visiting. <span onclick="showAbout()" ondblclick="hideAbout()">Click to see
+                            more</p></span>
                 </div>
             </div>
         </div>
 
-
-
-<!-- education section -->
         <div id="flip-boxe">
             <div class="flip-box-innere">
                 <div class="flip-box-fronte">
@@ -58,189 +41,148 @@
                 <div class="flip-box-backe">
                     <p>
                         Hey, Now we get serious.
-                        I am a student. 
-                       <span onclick="showEdu()" ondblclick="hideEdu()">Click to see my progress.</span>  
-                    </p>
-                </div>
-            </div>
-            </div>
-
-
-<!-- documents section -->
-        <div id="flip-box">
-            <div class="flip-box-inner">
-                <div class="flip-box-front">
-                    <img src="../other_images/docs.jpeg" alt="Docs">
-                </div>
-                <div class="flip-box-back">
-                    <p>
-                        Hey, I have a few documents you would like to go through and maybe leave a comment or download.
-                        <span onclick="showDocs()" ondblclick="hideDocs()">Click to see them.</span>
-                    </p>
-                </div>
-            </div>
-            </div>
-
-
-<!-- contacts section -->
-        <div id="flip-boxc">
-            <div class="flip-box-innerc">
-                <div class="flip-box-frontc">
-                    <img src="../other_images/contacts.jpeg" alt="Contacts">
-                </div>
-                <div class="flip-box-backc">
-                    <p>
-                        Hey, in case you want to reach out use the following details...
-                        <span onclick="showConts()" ondblclick="hideConts()">Click to see them.</span>
+                        I am a student.
+                        <span onclick="showProj()" ondblclick="hideProj()">Click to see my progress.</span>
                     </p>
                 </div>
             </div>
         </div>
-    </section>
-
-
-    <!-- Docs -->
-    <div id="files">
-        <div id="file2">
-            <embed src="../other_images/Denis Karani_CMYK.pdf" type="application/pdf" />
-        </div>
-
-        <div id="Resume">
-            <a href="https://docs.google.com/document/d/1_KcY1JAtC2yUVsY3CX2fAkS64yRKlZbTTUKWzfdTgYo/edit" target="_blank"
-                class="my-button">Resume</a>
     
-            <style>
-                #Resume{
-                    /* text-align: center; */
-                    display: grid;
-                    /* justify-content: center; */
-                    align-items: center;
-                    margin-inline: 10%;
-                }
-                .my-button {
-                    display: inline-block;
-                    padding: 10px 20px;
-                    font-size: 16px;
-                    font-weight: bold;
-                    color: #fff;
-                    text-decoration: none;
-                    background-color: #4CAF50;
-                    border-radius: 5px;
-                    transition: background-color 0.3s;
-                }
-
-                .my-button:hover {
-                    background-color: #3e8e41;
-                }
-            </style>
-        </div>
-        <div id="file3">
-            <embed src="../other_images/Denis Karani_elab.pdf" type="application/pdf" />
-        </div>
-    </div>
-
-
-    <!-- Contacts -->
-    <!-- whatsapp, Instagram, github, telegram -->
-<section id="reach">
-    <div id="emailtext">
-        <p>For inquiries email me at:</p>
-        <p>karanidenisw@gmail.com</p>
-    </div>
-    <div id="container">
-        <div id="whatsapp">
-        <a href="https://wa.me/254716272778" target="_blank">
-            <i class="fa-brands fa-whatsapp fa-2xl" style="color: #157a53;"></i>
-        </a>
-        </div>
-        <div id="insta">
-            <a href="https://instagram.com/_karanii_?igshid=ZDdkNTZiNTM=" target="_blank">
-                <i class="fa-brands fa-instagram fa-2xl" style="color: #e95950;"></i>
-            </a>
-        </div>
-        <div id="git">
-            <a href="https://github.com/karanidenis" target="_blank">
-                <i class="fa-brands fa-github fa-2xl" style="color: #333;"></i>
-            </a>
-        </div>
-        <div id="telegram">
-            <a href="https://web.telegram.org/k/" target="_blank">
-                <i class="fa-brands fa-telegram fa-2xl" style="color: #0088cc;"></i>
-            </a>
-        </div>
-    </div>
-</section>
-
-    <!-- about -->
-    <!-- skills, hobbies, school,  -->
-    <section id="hobby">
-        <!-- adventure, riding bikes, video games, coding -->
-        <div id="me">
-            <div id="imgkarani">
-                <img src="../other_images/karani.png" alt="Karani">
+    <div id="flip-box" >
+        <div class="flip-box-inner">
+            <div class="flip-box-front">
+                <img src="../other_images/docs.jpeg" alt="Docs">
             </div>
-            <div id="karani">
-            <p>
-                Denis is a Software Engineering student who is passionate about learning new technologies and solving problems.
-                He is a team player and a leader who is always ready to learn and share his knowledge with others.
-                He is also a gamer and a biker. He loves adventure and is always ready to try new things. He is also a good cook.
+            <div class="flip-box-back">
+                <p>
+                    Hey, I have a few documents you would like to go through and maybe leave a comment or download.
+                    <span onclick="showLangs()" ondblclick="hideLangs()">Click to see them.</span>
+                </p>
+            </div>
+        </div>
+    </div>
+    </div>
+
+<!-- Docs -->
+    <div id="myproj">
+        <!-- new cards -->
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="row-text">
+                    <h1>My Projects</h1>
+                </div>
+                <div class="col-sm-4 mb-3 mb-sm-0">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Airbnb</h5>
+                            <p class="card-text">This is a clone of the Airbnb website. It is a project I did with my team at
+                                the University. It is a
+                                full-stack project. We used the Flask framework for the backend and HTML, CSS, and JavaScript
+                                for the
+                                frontend.</p>
+                            <a href="https://github.com/karanidenis/alu-AirBnB_clone_v4" target="_blank"
+                                class="btn btn-primary">Code</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Africandelights</h5>
+                            <p class="card-text">This is a website designed to produce great recipes for users. I built it with
+                                my team at the University.
+                                It is a
+                                full-stack project. We used the Flask framework for the backend and HTML, CSS, and JavaScript
+                                for the
+                                frontend.</p>
+                            <a href="https://github.com/karanidenis/African_delights" target="_blank"
+                                class="btn btn-primary">Code</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 mb-4">
+                    <div class="card shadow-sm">
+                        <div class="card-body">
+                            <h5 class="card-title">My Third Project</h5>
+                            <p class="card-text">This is a third project that I worked on. It is a full-stack project that uses
+                                the Django framework for the backend and React for the frontend.</p>
+                            <a href="https://github.com/myusername/my-third-project" target="_blank" class="btn btn-primary">Code</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Skills -->
+        <section id="reach">
+            <div id="langs" style="display: flex; justify-content: center;">
+            <p style="align-items: center">
+                <img style="align-items: left;"
+                    src="https://github-readme-stats.vercel.app/api/top-langs?username=karanidenis&show_icons=true&locale=en&layout=compact&theme=radical&token=${PAT_1}"
+                    alt="Karanidenis" width=360 height=180 />
             </p>
             </div>
-        </div>
-    </section>
+        </section>
 
-<!-- education -->
-<!-- my schools, current program, skills, -->
-    <section id="educate">
-            <!-- school, program, skills, -->
-            <div id="school">
-                <h1>University</h1>
-                <p>I am currently attending the University of African leadership University at Kigali. I am majoring in Software
-                    Engineering and I am expected to graduate in 2024.</p>
-            </div>
-            <div id="program">
-                <h1>My Courses</h1>
-                <p>I am currently attending the University of African leadership University at Kigali. I am majoring in Software
-                    Engineering and I am expected to graduate in 2024.</p>
-                <p>I have a passion for learning new technologies. I have learned many technologies in my time at the University
-                    also by myself.</p>
-                <h1>languages</h1>
-                <ul>
-                    <li>python</li>
-                    <li>javaScript</li>
-                    <li>Html</li>
-                    <li>CSS</li>
-                    <li>Flask framework</li>
-                    <li>currently learning React framework</li>
-                </ul>
-            </div>
-            <div id="projects">
-            <div id="bxa">
-                <div id="airbnb">
-                    <h2>Airbnb</h2>
-                    <p>This is a clone of the Airbnb website. It is a project I did with my team at the University. It is a
-                        full-stack project. We used the Flask framework for the backend and HTML, CSS, and JavaScript for the
-                        frontend.</p>
-                        <a href="https://github.com/karanidenis/alu-AirBnB_clone_v4" target="_blank">
-                            <i class="fa-brands fa-github fa-2xl" style="color: aquamarine;"></i>
-                        </a>
+
+        <!-- about -->
+        <section id="hobby">
+        <div class="card mb-3" style="max-width: 700px; margin-left: 20%; background-color: transparent;">
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <div class="card-image">
+                        <img src="../other_images/karani.png" class="img-fluid rounded-start" alt="...">
+                    </div>
                 </div>
+            <div class="col-md-8">
+                <div class="card-body">
+                    <div class="d-flex justify-content-between align-items-start mb-3">
+                        <div class="text-float">
+                            <h5>Denis Karani</h5>
+                            <p>Software Engineer</p>
+                        </div>
+                        <div class="float-right">
+                            <div class="d-flex flex-row justify-content-end">
+                                <div id="insta">
+                                    <a href="https://www.linkedin.com/in/denis-karanja-8b0b3a1b2/" target="_blank">
+                                        <i class="fa-brands fa-linkedin fa-2x" style="color: #0e76a8;"></i>
+                                    </a>
+                                </div>
+                                <div id="insta">
+                                    <a href="https://instagram.com/_karanii_?igshid=ZDdkNTZiNTM=" target="_blank">
+                                        <i class="fa-brands fa-instagram fa-2xl" style="color: #e95950;"></i>
+                                    </a>
+                                </div>
+                                <div id="whatsapp">
+                                    <a href="https://wa.me/254716272778" target="_blank">
+                                        <i class="fa-brands fa-whatsapp fa-2xl" style="color: #157a53;"></i>
+                                    </a>
+                                </div>
+                                <div id="git">
+                                    <a href="https://github.com/karanidenis" target="_blank">
+                                        <i class="fa-brands fa-github fa-2xl" style="color: #333;"></i>
+                                    </a>
+                                </div>
+                                <div id="telegram">
+                                    <a href="https://web.telegram.org/k/" target="_blank">
+                                        <i class="fa-brands fa-telegram fa-2xl" style="color: #0088cc;"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                        <p class="card-text">Denis is a Software Engineering student who is passionate about learning new technologies and
+                            solving problems. He is a team player and a leader who is always ready to learn and share his knowledge with
+                                others. He is also a gamer and a biker. He loves adventure and is always ready to try new things. He is also a
+                            good cook.</p>
+                        </div>
+                        <div id="Resume">
+                            <a href="path/to/resume.pdf" class="button-link">Resume</a>
+                        </div>
+                    </div>
                 </div>
-                <div id="bx">
-                <div id="delights">
-                    <h3>Africandelights</h3>
-                    <p>This is a website designed to produce great recipes for users. I built it with my team at the University. It is a
-                        full-stack project. We used the Flask framework for the backend and HTML, CSS, and JavaScript for the
-                        frontend.</p>
-                        <a href="https://github.com/karanidenis/African_delights" target="_blank">
-                            <i class="fa-brands fa-github fa-2xl" style="color: aquamarine;"></i>
-                        </a>
-                </div>
-                </div>
-            </div>
-                <h1>Secondary school</h1>
-                <p>I attended High school at the Moi High School in Kenya. I graduated in 2019.</p>
             </div>
         </section>
-</body>
+    </body>
 </html>
