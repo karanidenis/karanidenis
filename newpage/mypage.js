@@ -60,3 +60,10 @@
   const button = bootstrap.Button.getOrCreateInstance(buttonElement)
   button.toggle()
 })
+
+    function hideTags() {
+       document.getElementById('placetags').style.display = "none";
+    }
+    // function showTags() {
+    //     document.getElementById('placetags').style.display = "block";
+    // }

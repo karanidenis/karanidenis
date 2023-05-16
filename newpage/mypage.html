@@ -7,15 +7,16 @@
         integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/868e72f2ea.js" crossorigin="anonymous"></script>
     <script src="../newpage/mypage.js"></script>
-    <title>@KARANI</title>
+    <link rel="icon" href="../other_images/karani icon.png">
+    <title>karani</title>
 </head>
 <body class="custom-bg">
     <header>
         <div class="buttons">
             <button class="btn btn-primary" type="button" onclick="showCard()">Home</button>
-            <button class="btn btn-primary" type="button" onclick="showAbout()" ondblclick="hideAbout()">About</button>
-            <button class="btn btn-primary" type="button" onclick="showProj()" ondblclick="hideProj()">Projects</button>
-            <button class="btn btn-primary" type="button" onclick="showLangs()" ondblclick="hideLangs()">Skills</button>
+            <button class="btn btn-primary" type="button" onclick="showAbout(), hideTags()" ondblclick="hideAbout()">About</button>
+            <button class="btn btn-primary" type="button" onclick="showProj(), hideTags()" ondblclick="hideProj()">Projects</button>
+            <button class="btn btn-primary" type="button" onclick="showLangs(), hideTags()" ondblclick="hideLangs()">Skills</button>
         </div>
     </header>
 
@@ -28,7 +29,7 @@
                 <div class="flip-box-backa">
                     <p>
                         Hey there, thank you for visiting. <span onclick="showAbout()" ondblclick="hideAbout()">Click to see
-                            more</p></span>
+                            more About me</p></span>
                 </div>
             </div>
         </div>
@@ -62,6 +63,19 @@
         </div>
     </div>
     </div>
+    <div id="placetags">
+        <div id="placeholder">
+            <button onclick="showAbout()">About</button>
+        </div>
+    
+        <div id="placeholder">
+            <button onclick="showProj()">Projects</button>
+        </div>
+    
+        <div id="placeholder">
+            <button  onclick="showLangs()">Skills</button>
+        </div>
+    </div>
 
 <!-- Docs -->
     <div id="myproj">
@@ -81,7 +95,7 @@
                                 for the
                                 frontend.</p>
                             <a href="https://github.com/karanidenis/alu-AirBnB_clone_v4" target="_blank"
-                                class="btn btn-primary">Code</a>
+                                class="btn btn-primary">View Code</a>
                         </div>
                     </div>
                 </div>
@@ -96,23 +110,24 @@
                                 for the
                                 frontend.</p>
                             <a href="https://github.com/karanidenis/African_delights" target="_blank"
-                                class="btn btn-primary">Code</a>
+                                class="btn btn-primary">View Code</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-sm-4 mb-4">
-                    <div class="card shadow-sm">
+                    <div class="card">
                         <div class="card-body">
-                            <h5 class="card-title">My Third Project</h5>
-                            <p class="card-text">This is a third project that I worked on. It is a full-stack project that uses
-                                the Django framework for the backend and React for the frontend.</p>
-                            <a href="https://github.com/karanidenis/karanidenis/tree/main/newpage" target="_blank" class="btn btn-primary">Code</a>
+                            <h5 class="card-title">My Portfolio</h5>
+                            <p class="card-text">This is the current project you are viewing.
+                                I built this portfolio using HTML, CSS, Bootstrap and Javascript.</p>
+                            <a href="https://github.com/karanidenis/karanidenis/tree/main/newpage" target="_blank" class="btn btn-primary">View Code</a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+
 
     <!-- Skills -->
         <section id="reach">
@@ -178,7 +193,7 @@
                             good cook.</p>
                         </div>
                         <div id="Resume">
-                            <a href="path/to/resume.pdf" class="button-link">Resume</a>
+                            <a href="https://docs.google.com/document/d/1wWXBJgJQVbbcDKgvO14kUmuUq-LThVqCYqhxeRGdJoM/edit?usp=sharing" class="button-link" target="_blank">Resume</a>
                         </div>
                     </div>
                 </div>
