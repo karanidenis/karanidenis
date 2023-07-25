@@ -1,5 +1,5 @@
 <h1 align='center'> Hi There :wave:</h1>
-![Profile Views](https://komarev.com/ghpvc/?username=karanidenis&color=brightgreen)
+<!-- ![Profile Views](https://komarev.com/ghpvc/?username=karanidenis&color=brightgreen) -->
 
 
 <!-- Update the image sources to include the "PAT_1" environment variable as a query parameter -->
