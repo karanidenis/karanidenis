@@ -7,8 +7,8 @@
 #### Top Repositories
 
 
-<a href="https://github.com/anuraghazra/github-readme-stats">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=karanidenis&repo=github-readme-stats&theme=buefy" />
+<a href="https://github.com/karanidenis/alu-higher_level_programming">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=karanidenis&repo=github-alu-higher_level_programming&theme=buefy" />
 </a>
 
 <!-- ![Profile Views](https://komarev.com/ghpvc/?username=karanidenis&color=brightgreen) -->
