@@ -16,7 +16,7 @@
 | [ Alu-higher_level_programming](https://github.com/karanidenis/alu-higher_level_programming) | Python3, Object-Oriented Programming, interpreted languages, test driven deveplopment, SQL, MySQL, HTML, CSS, JSON, jQuery and Unit Testing |
 | [ Alu-system_engineering-devops](https://github.com/karanidenis/alu-system_engineering-devops) | Linux permissions, redirections, syscalls, loops, conditions and parsing, processes and signals, SSH |
 | [Alu-AirBnB_clone](https://github.com/karanidenis/alu-AirBnB_clone) | application of python3, tets driven development, JSON, MySQl, CSS, HTML, SqlAlchemy, Flask, devops |
-| [React_web_app](https://github.com/karanidenis/fashion_app) | React, React Hooks + more. [Link](https://fashion-app-alpha.vercel.app/) |
+| [React_web_app](https://github.com/karanidenis/fashion_app) | React, React Hooks + more. [Visit](https://fashion-app-alpha.vercel.app/) |
 | [Pesapal_API](https://github.com/karanidenis/Pesapal_API) | Pesapal API integration with Flask |
 
 <p align="center">
