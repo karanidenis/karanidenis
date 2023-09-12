@@ -4,8 +4,8 @@
 
 <!-- Update the image sources to include the "PAT_1" environment variable as a query parameter -->
 <p align="center"> 
-  <img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=karanidenis&show_icons=true&locale=en&layout=compact&theme=radical&token=${PAT_1}" alt="Karanidenis" width=360 height=180/>
-  <img align="center" src="https://github-readme-stats.vercel.app/api?username=karanidenis&show_icons=true&theme=radical&token=${PAT_1}" alt="karanidenis" width=420 height=180/>
+  <img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=karanidenis&show_icons=true&locale=en&layout=compact&theme=radical&token=${PAT_1}" alt="Karanidenis" width=380 height=200/>
+  <img align="center" src="https://github-readme-stats.vercel.app/api?username=karanidenis&show_icons=true&theme=radical&token=${PAT_1}" alt="karanidenis" width=410 height=180/>
 </p>
 
 
