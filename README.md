@@ -15,7 +15,7 @@
 
 <p align="center">
   <a href="mailto:d.waweru@alustudent.com">
-    <img src="https://img.shields.io/badge/Email-me%20here-informational?style=flat&logo=gmail&logoColor=white&color=2bbc8a" alt="Email">
+    <img src="https://img.shields.io/badge/Email-me%20here-informational?style=circle&logo=gmail&logoColor=blue&color=2bbc8a" alt="Email">
   </a>
   <a href="https://github.com/karanidenis">
     <img src="https://img.shields.io/badge/GitHub-karanidenis-blue" alt="GitHub">
