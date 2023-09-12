@@ -4,13 +4,6 @@
 
 <br />
 
-#### Top Repositories
-
-
-<a href="https://github.com/karanidenis/alu-higher_level_programming">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=karanidenis&repo=github-alu-higher_level_programming&theme=buefy" />
-</a>
-
 <!-- ![Profile Views](https://komarev.com/ghpvc/?username=karanidenis&color=brightgreen) -->
 
 
