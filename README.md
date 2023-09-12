@@ -7,8 +7,8 @@
     A passionate coder in love with
     <br><br>
     <img src="https://img.icons8.com/color/48/000000/python.png" alt="Python">
-    <img src="https://img.icons8.com/color/48/000000/javaScript.png" alt="Python">
-    <img src="https://img.icons8.com/color/48/000000/React.png" alt="Python">
+    <img src="https://img.icons8.com/color/48/000000/javascript.png" alt="javascript">
+    <img src="https://img.icons8.com/color/48/000000/React.png" alt="React">
     <br><br>
     Let's turn ☕ into 💻!
   </samp>
