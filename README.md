@@ -3,6 +3,14 @@
 <p align="center">Hello, I'm Denis </p>
 
 <br />
+
+#### Top Repositories
+
+
+<a href="https://github.com/anuraghazra/github-readme-stats">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=karanidenis&repo=github-readme-stats&theme=buefy" />
+</a>
+
 <!-- ![Profile Views](https://komarev.com/ghpvc/?username=karanidenis&color=brightgreen) -->
 
 
