@@ -1,4 +1,8 @@
 <h1 align='center'> Hi There :wave:</h1>
+
+<p align="center">Hello, I'm Denis </p>
+
+<br />
 <!-- ![Profile Views](https://komarev.com/ghpvc/?username=karanidenis&color=brightgreen) -->
 
 
