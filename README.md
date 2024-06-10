@@ -9,9 +9,6 @@
     <img src="https://img.icons8.com/color/48/000000/python.png" alt="Python">
     <img src="https://img.icons8.com/color/48/000000/javascript.png" alt="javascript">
     <img src="https://img.icons8.com/color/48/000000/react-native.png" alt="React">
-    <img src="https://img.icons8.com/color/48/000000/database.png" alt="Database">
-    <img src="https://img.icons8.com/color/48/000000/data-configuration.png" alt="Data Configuration">
-    <img src="https://img.icons8.com/color/48/000000/machine-learning.png" alt="Machine Learning">
     <br><br>
     Let's turn ☕ into 💻!
   </samp>
