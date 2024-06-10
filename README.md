@@ -33,7 +33,7 @@
 
 <!-- <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=karanidenis&show_icons=true&locale=en" alt="karanidenis" /></p> -->
 
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=karanidenis&" alt="karanidenis"/></p>
+<p align="center"><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=karanidenis&" alt="karanidenis"/></p>
 
 
 <h3 align="center">Repositories with most projects</h3>
