@@ -18,8 +18,8 @@
   <a href="mailto:d.waweru@alustudent.com">
     <img src="https://img.shields.io/badge/Email-me%20here-informational?style=circle&logo=gmail&logoColor=blue&color=2bbc8a" alt="Email">
   </a>
-  <a href="https://github.com/karanidenis">
-    <img src="https://img.shields.io/badge/GitHub-karanidenis-blue" alt="GitHub">
+  <a href="https://www.linkedin.com/in/denis-karani/">
+    <img src="https://img.shields.io/badge/LinkedIn-karanidenis-blue" alt="linkedIn">
   </a>
 </p>
 
