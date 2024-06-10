@@ -31,7 +31,7 @@
   <img align="center" src="https://github-readme-stats.vercel.app/api?username=karanidenis&show_icons=true&theme=radical&token=${PAT_1}" alt="karanidenis" width=410 height=170/>
 </p>
 
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=karanidenis&show_icons=true&locale=en" alt="karanidenis" /></p>
+<!-- <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=karanidenis&show_icons=true&locale=en" alt="karanidenis" /></p> -->
 
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=karanidenis&" alt="karanidenis"/></p>
 
@@ -47,7 +47,7 @@
 | [Pesapal_API](https://github.com/karanidenis/Pesapal_API) | Pesapal API integration with Flask |
 
 <p align="center">
-	<!-- <a href="https://github.com/karanidenis"><img src="https://icons-for-free.com/iconfiles/png/512/code+collaboration+github+network+round+social+icon-1320086084536018107.png" alt="GitHub" width = 50px></a> -->
+	<a href="https://github.com/karanidenis"><img src="https://icons-for-free.com/iconfiles/png/512/code+collaboration+github+network+round+social+icon-1320086084536018107.png" alt="GitHub" width = 50px></a>
 	<a href="https://www.linkedin.com/in/denis-karani/">.   <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="LinkedIn" width = 50px></a>
 
 <h2 align='left'><img src='https://readme-typing-svg.herokuapp.com?colour=green&lines=Thank+you+for+visiting;Bye'></h2>
