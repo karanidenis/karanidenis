@@ -31,6 +31,10 @@
   <img align="center" src="https://github-readme-stats.vercel.app/api?username=karanidenis&show_icons=true&theme=radical&token=${PAT_1}" alt="karanidenis" width=410 height=170/>
 </p>
 
+<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=karanidenis&show_icons=true&locale=en" alt="karanidenis" /></p>
+
+<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=karanidenis&" alt="karanidenis"/></p>
+
 
 <h3 align="center">Repositories with most projects</h3>
 
