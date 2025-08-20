@@ -1,0 +1,13 @@
+.w-4 {
+    width: 20px !important;
+    height: 20px !important;
+    background: yellow !important;
+  }
+.fixed {
+    position: fixed;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1000;
+}
+
